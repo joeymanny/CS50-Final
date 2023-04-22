@@ -28,7 +28,7 @@ while True:
     height = width
     xslide = float(input("x slide: "))
     yslide = float(input("y slide: "))
-    # initializ array in the shape desired
+    # initialize array in the shape desired
     coords = np.zeros((height, width))
     # for each item in the array (every pixel)
     for y in range(len(coords)//-2, len(coords)):
